@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienvenido</title>
+    
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css?family= Rubik + Mono + One & display = swap" rel="hoja de estilo">
+</head>
+<body class="contenedor-form" style="text-align: -webkit-center">
+    <table style="width:100%" >
+  
+    </table>
+    <table style="width:100%">
+        <tr>
+            <td style="text-align: -webkit-center">
+                <div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div >
+                        <h1>Login</h1>
+                        <br>
+                        <form>
+                            <input type="text" placeholder="Usuario" required id="username" name="username">
+                            <input type="password" placeholder="Contraseña" required id="password" name="password">
+                        </form> 
+                    </div>
+                    <label id="mensajeErrorLogin" name="mensajeErrorLogin"
+                        style="background-color:black;color:white; visibility: hidden;">Usuario y/o
+                        Contraseña
+                        Invalidos
+                    </label>
+                    <br>
+                    <br>
+                    <center>
+                        <a onclick="verificarLogin()">
+                            <img src="imagenes/ingresar.png" >
+                        </img></a>
+                        <br>
+                        <br>
+                        <a href="Regristrarte.html">
+                            <img src="imagenes/registrarte ahora.png">
+                        </img></a>
+                </div>
+            </td> 
+        </tr>
+    </table>
+    <script src="..\todas las pantallas\jquery-3.1.1.min.js"></script>     
+    <script src="../todas las pantallas/reloj.js"></script>
+    <script src="js/login.js"></script>
+</body>
