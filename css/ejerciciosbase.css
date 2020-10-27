@@ -1,0 +1,11 @@
+﻿#hola {
+    height: 100%;
+    background-repeat: no-repeat;
+    background: no-repeat center center fixed;
+    background-size: 70% 70%;
+    
+}
+.img.np{
+    width: 50px;
+    height: 50px;
+}

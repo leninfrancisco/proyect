@@ -650,7 +650,8 @@ a{
 .comment-section .card-img-overlay {
   background-color: rgba(0, 0, 0, 0.251);
   margin: 6px;
-  padding: 0; }
+  padding: 0px; 
+}
 .comment-section h4 {
   font-size: 16px; }
 .comment-section p {
@@ -782,5 +783,3 @@ a{
     padding-right: 15px !important; }
   .ar-content .col-lg-3 {
     padding-left: 15px !important; } }
-
-/*# sourceMappingURL=style.css.map */
